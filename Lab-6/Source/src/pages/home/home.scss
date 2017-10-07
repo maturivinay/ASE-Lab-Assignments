@@ -1,6 +1,29 @@
 page-home {
-#map{
-    height: 100%;
-    width: 100%;
+    h1{
+        text-align: center;
+    }
+     #apibuttons{
+        align-content: center;
+         align-items: center;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    
+
+    .bg-image{
+        background-image: url("../assets/img/background.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:center;
+        
+    }
+   
+    
+    
+
+
 }
-}
+
+
