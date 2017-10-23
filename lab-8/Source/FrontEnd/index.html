@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Healthy Calculator</title>
+    <div class="container">
+        <div class="bg-primary" style="text-align: center;font-family: Arial"><h1>Bytes Convertor</h1></div>
+        </div>
+
+</head>
+<body ng-app=calculate>
+<div ng-controller=calculatectrl>
+    <form>
+    <div class="form-group"> <label for="height"></label>
+        <input type="number" class="form-control"placeholder="Enter the Bytes" id="height" ng-model="h">
+    </div>
+
+<br><br>
+    </form>
+<div class="centered">
+    <button class="btn btn-success" ng-click="bmi()">Calculate</button>
+</div>
+    <div class="container">
+    <p ng-model=cal>
+        <br><br>
+
+        <div class="bg-danger">100 Nibbles</div><br>
+        <div class="bg-success">400 Bits</div><br>
+        <div class="bg-warning">0.05 Kilo Bytes</div><br>
+
+
+    </p>
+        </div>
+</div>
+</body>
+</html>
